@@ -10,17 +10,6 @@ Testing is an important part of the development process and many organizations p
 Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
 
 
-## What will I learn?
-
-You will learn how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
-
-
-## How will this help my career?
-
-* Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
-* Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
-
-
 # How will I complete this project?
 
 Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
@@ -46,3 +35,17 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 19. Implement error handling for undefined variables and out-of-bound array access.
 20. When complete - all of your tests should pass. 
 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
+
+## Run the Application
+
+1. Open index.html, the application uses jasmine testing tool to test JavaScript code. 
+2. In feedreader.js under spec folder, user will be able to write the tesing.
+3. The application has 7 tests to validate the functionalty of page, which include:
+
+	Feeds are defined.
+	Feed URLs are defined and not empty.
+	Feed names are defined and not empty.
+	Menu is hidden by default.
+	Menu changes visibility when the menu icon is clicked.
+	There is at least a single .entry element within the .feed container.
+	New Feed Selection changes the content when new feed is loaded.
