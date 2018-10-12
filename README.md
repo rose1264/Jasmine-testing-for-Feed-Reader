@@ -1,7 +1,9 @@
 # Project Overview
+## Testing! Testing! Testing!
 
-In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
+This project is all about writing tests using Jasmine.[Jasmine](http://jasmine.github.io/)
 
+In this project you are given a web-based application that reads RSS feeds. 
 
 ## Why this Project?
 
@@ -10,7 +12,7 @@ Testing is an important part of the development process and many organizations p
 Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
 
 
-# How will I complete this project?
+# How to complete this project?
 
 Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
